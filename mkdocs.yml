@@ -1,5 +1,6 @@
 site_name: Programmation object - 420-2C3-MA - Hiver 2025
 site_description: Site web du cours de programmation objet (420-2C3-MA) du Collège de Maisonneuve.
+site_url: https://archambaultv-prof.github.io/2025H-420-2C3-MA/
 nav:
   - Page d'acceuil: index.md
   - Échéancier: echeancier.md
