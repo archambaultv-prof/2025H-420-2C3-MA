@@ -10,8 +10,8 @@ nav:
     - Les expressions: semaine_01/theorie/01_les_expressions.md
 theme:
   name: material
-  logo: /assets/logo-white.svg
-  favicon: /assets/favicon.svg
+  logo: assets/images/logo-white.svg
+  favicon: assets/images/favicon.svg
   language: fr
   features:
     - content.code.copy

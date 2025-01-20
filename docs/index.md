@@ -1,7 +1,7 @@
 #
 
 <center>
-  ![Logo](assets/logo-black.svg)
+  ![Logo](assets/images/logo-black.svg)
 </center>
 
 Bienvenue sur le site du cours de programmation objet 420-2C3-MA du [Collège de
