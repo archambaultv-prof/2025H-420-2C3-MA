@@ -10,6 +10,7 @@ nav:
     - Les expressions: semaine_01/theorie/01_expressions.md
     - Les structures conditionnelles: semaine_01/theorie/02_conditions.md
     - Les structures itératives: semaine_01/theorie/03_structures_iteratives.md
+    - Les chaînes de caractères: semaine_01/theorie/04_chaines_caracteres.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
