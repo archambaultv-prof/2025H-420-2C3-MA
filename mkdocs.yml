@@ -11,7 +11,7 @@ nav:
 theme:
   name: material
   logo: assets/images/logo-white.svg
-  favicon: assets/images/favicon.svg
+  favicon: assets/images/favicon.png
   language: fr
   features:
     - content.code.copy
