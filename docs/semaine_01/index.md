@@ -15,6 +15,8 @@ hide:
 - [Les structures conditionnelles](theorie/02_conditions.md)
 - [Les structures itératives](theorie/03_structures_iteratives.md)
 - [Les chaînes de caractères](theorie/04_chaines_caracteres.md)
+- [Les fonctions](theorie/05_fonctions.md)
+- [Les listes](theorie/06_listes.md)
 
 ## Exercices
 - [Exercices 1](exercices/01_les_expressions.py){:download="01_les_expressions.py"}
