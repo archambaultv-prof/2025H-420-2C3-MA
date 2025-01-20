@@ -8,6 +8,7 @@ Révision des notions de base en Python
 
 ## Théorie
 - [Les expressions](theorie/01_les_expressions.md)
+- [Les structures itératives](theorie/02_structures_iteratives.md)
 
 ## Exercices
 - [Exercices 1](exercices/01_les_expressions.py){:download="01_les_expressions.py"}
