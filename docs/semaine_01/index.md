@@ -19,4 +19,4 @@ hide:
 - [Les listes](theorie/06_listes.md)
 
 ## Exercices
-- [Exercices 1](exercices/01_les_expressions.py){:download="01_les_expressions.py"}
+- [Exercices](exercices/exercices_semaine_01.py){:download="exercices_semaine_01.py"}
