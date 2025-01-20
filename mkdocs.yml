@@ -11,6 +11,8 @@ nav:
     - Les structures conditionnelles: semaine_01/theorie/02_conditions.md
     - Les structures itératives: semaine_01/theorie/03_structures_iteratives.md
     - Les chaînes de caractères: semaine_01/theorie/04_chaines_caracteres.md
+    - Les fonctions: semaine_01/theorie/05_fonctions.md
+    - Les listes: semaine_01/theorie/06_listes.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
