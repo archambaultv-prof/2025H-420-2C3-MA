@@ -20,6 +20,9 @@ theme:
   favicon: assets/images/favicon.png
   language: fr
   features:
+    - search.suggest
+    - search.highlight
+    - search.share
     - content.code.copy
     - navigation.top
     - navigation.footer
@@ -42,3 +45,4 @@ markdown_extensions:
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 plugins: 
   - social
+  - search
