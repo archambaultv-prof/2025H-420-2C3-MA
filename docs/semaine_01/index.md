@@ -21,6 +21,3 @@ hide:
 - [Les chaînes de caractères](theorie/04_chaines_caracteres.md)
 - [Les fonctions](theorie/05_fonctions.md)
 - [Les listes](theorie/06_listes.md)
-
-## Exercices
-- [Exercices](exercices/exercices_semaine_01.py){:download="exercices_semaine_01.py"}

@@ -5,21 +5,37 @@ nav:
   - Page d'acceuil: index.md
   - Échéancier: echeancier.md
   - Évaluations sommatives: evaluations.md
-  - Au sujet des exercices: notes_exercices.md
+  - Exercices: notes_exercices.md
   - Semaine 1:
     - Plan de leçon: semaine_01/index.md
-    - Les expressions: semaine_01/theorie/01_expressions.md
-    - Les structures conditionnelles: semaine_01/theorie/02_conditions.md
-    - Les structures itératives: semaine_01/theorie/03_structures_iteratives.md
-    - Les chaînes de caractères: semaine_01/theorie/04_chaines_caracteres.md
-    - Les fonctions: semaine_01/theorie/05_fonctions.md
-    - Les listes: semaine_01/theorie/06_listes.md
+    - Théorie:
+      - Les expressions: semaine_01/theorie/01_expressions.md
+      - Les structures conditionnelles: semaine_01/theorie/02_conditions.md
+      - Les structures itératives: semaine_01/theorie/03_structures_iteratives.md
+      - Les chaînes de caractères: semaine_01/theorie/04_chaines_caracteres.md
+      - Les fonctions: semaine_01/theorie/05_fonctions.md
+      - Les listes: semaine_01/theorie/06_listes.md
+  - Semaine 2:
+    - Plan de leçon: semaine_02/index.md
+    - Théorie:
+      - Introduction à NumPy: semaine_02/theorie/01_numpy_intro.md
+      - Tableaux NumPy: semaine_02/theorie/02_ndarray.md
+      - Statistiques avec NumPy: semaine_02/theorie/03_statistiques.md
+  - Semaine 3:
+    - Sommatif 1: semaine_03/sommatif_1.md
+    - Plan de leçon: semaine_03/index.md
+    - Théorie:
+      - Programmation fonctionnelle: semaine_03/theorie/01_prog_func.md
+      - Compréhensions de listes: semaine_03/theorie/02_list_comprehension.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
   favicon: assets/images/favicon.png
   language: fr
   features:
+    - search.suggest
+    - search.highlight
+    - search.share
     - content.code.copy
     - navigation.top
     - navigation.footer
@@ -42,3 +58,4 @@ markdown_extensions:
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 plugins: 
   - social
+  - search
