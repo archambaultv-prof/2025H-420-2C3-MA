@@ -16,6 +16,14 @@ nav:
       - Les fonctions: semaine_01/theorie/05_fonctions.md
       - Les listes: semaine_01/theorie/06_listes.md
     - Exercices: semaine_01/exercices/index.md
+  - Semaine 2:
+    - Plan de leçon: semaine_02/index.md
+    - Théorie:
+      - Introduction à NumPy: semaine_02/theorie/01_numpy_intro.md
+      - Création de tableaux NumPy: semaine_02/theorie/02_creation_tableau.md
+      - Tableaux à plusieurs dimensions: semaine_02/theorie/03_tableau_ndim.md
+      - Statistiques avec NumPy: semaine_02/theorie/04_statistiques.md
+    - Exercices: semaine_02/exercices/index.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
