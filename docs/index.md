@@ -51,5 +51,4 @@ Le code source du site est disponible [ici](https://github.com/archambaultv-prof
 
 ## Droits d'auteur
 Le contenu de ce site, y compris le code, les textes et autres matériaux, est
-mis à disposition selon la licence suivante:
-- [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)
+mis à disposition selon la licence suivante: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)
