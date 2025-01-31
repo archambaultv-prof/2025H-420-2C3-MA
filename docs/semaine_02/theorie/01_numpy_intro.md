@@ -71,10 +71,6 @@ import numpy as np
 import time
 
 # Créer une grande liste et un tableau NumPy
-import numpy as np
-import time
-
-# Créer une grande liste et un tableau NumPy
 n = 10000000
 lst = list(range(n))  # une liste
 arr = np.arange(n)    # un tableau NumPy
