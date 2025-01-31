@@ -24,6 +24,8 @@ nav:
       - Tableaux à plusieurs dimensions: semaine_02/theorie/03_tableau_ndim.md
       - Statistiques avec NumPy: semaine_02/theorie/04_statistiques.md
     - Exercices: semaine_02/exercices/index.md
+  - Semaine 3:
+    - Sommatif 1: semaine_03/sommatif_1.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
