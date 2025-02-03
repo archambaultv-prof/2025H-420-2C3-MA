@@ -150,6 +150,6 @@ def reduce(f, lst):
     return result
 ```
 
-Il s'agit donc d'une boucle qui applique la fonction `f` de manière cumulative. Bref,
-à chaque fois qu'on produit un résultat en parcourant une liste de gauche à droite,
-on peut utiliser `reduce`.
+Il s'agit donc d'une boucle qui applique la fonction `f` de manière répétée et
+qui accumule le résultat. Bref, à chaque fois qu'on produit un résultat en
+parcourant une liste de gauche à droite, on peut utiliser `reduce`.
