@@ -9,6 +9,7 @@ Quelques éléments à retenir pour le prochain cours.
 ## Semaine 1
 
 - Prévoir plus de temps pour configurer l'envirronement de développement.
+- Faire remplir le sondage pour disponibilité **en classe**, car il y a eu peu de réponses.
 
 ## Semaine 2
 
