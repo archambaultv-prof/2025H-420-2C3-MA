@@ -4,7 +4,8 @@ NumPy propose de nombreuses fonctions pour effectuer des calculs statistiques
 sur des tableaux. Voici quelques-unes des fonctions les plus couramment
 utilisées :
 
-- `np.mean()` : Calcule la moyenne des éléments du tableau.
+- `np.mean()` : Calcule la moyenne des éléments du tableau. On peut notamment passer un
+  tableau de poids en argument pour calculer une moyenne pondérée.
 - `np.median()` : Calcule la médiane des éléments du tableau.
 - `np.std()` : Calcule l'écart-type des éléments du tableau.
 - `np.amax()` : Retourne la valeur maximale du tableau.

@@ -1,119 +1,114 @@
 # Introduction à NumPy
 
+<center>
 ![NumPy Logo](../../assets/images/numpy/numpy.png)
+<br/>
+<span style="color:gray; font-size:smaller;">Source : [NumPy](https://numpy.org)</span>
+</center>
 
-[NumPy](https://numpy.org) est une bibliothèque essentielle pour effectuer des calculs numériques en
-Python. Elle fournit un support performant pour manipuler des tableaux
-multidimensionnels ainsi que pour exécuter diverses opérations mathématiques
-associées. Son composant principal, le tableau NumPy, permet de gérer
-efficacement les données, ce qui en fait un outil idéal pour les calculs
-scientifiques, l'analyse de données et les applications en apprentissage
-automatique.
+## Qu'est-ce que NumPy ?
 
-En optimisant les opérations vectorielles, NumPy surpasse les performances des
-listes classiques de Python. Elle met également à disposition une large gamme de
-fonctions avancées, notamment pour les mathématiques, l'algèbre linéaire, les
-transformées de Fourier et bien d'autres domaines.
+[NumPy](https://numpy.org) (Numerical Python) est une bibliothèque essentielle
+pour le calcul scientifique en Python. Elle permet de manipuler efficacement des
+tableaux de données à plusieurs dimensions appelés `ndarray` et offre une
+vaste collection de fonctions mathématiques optimisées pour les opérations sur
+ces tableaux.
 
-De plus, NumPy s'intègre harmonieusement avec d'autres bibliothèques populaires
-comme [SciPy](https://www.scipy.org) et [Matplotlib](https://matplotlib.org), ce qui en fait une ressource incontournable pour les
-professionnels et chercheurs impliqués dans la programmation scientifique en
-Python.
+### Avantages de NumPy
 
-## Installation
-NumPy est généralement installée par défaut avec les distributions Python. S'il
-n'est pas déjà installé, vous pouvez le faire en utilisant l'outil de gestion de
-paquets `pip` après **[avoir activé votre environnement](../../notes_exercices.md)** :
-```bash
+1. **Performances accrues** : Les tableaux NumPy sont plus rapides et utilisent
+   moins de mémoire que les listes Python classiques.
+2. **Syntaxe concise et expressive** : Les opérations sur les tableaux sont plus
+   simples et ressemblent à celles de [MATLAB](https://www.mathworks.com/products/matlab.html) 
+   ou [R](https://www.r-project.org).
+3. **Large écosystème scientifique** : De nombreuses bibliothèques comme [SciPy](https://www.scipy.org),
+   [Pandas](https://pandas.pydata.org) et [Matplotlib](https://matplotlib.org) reposent sur NumPy.
+4. **Gestion efficace des opérations mathématiques** : Opérations vectorielles,
+   algèbre linéaire, génération de nombres aléatoires, etc.
+
+## Installation de NumPy
+
+Après avoir activé votre environnement virtuel, vous pouvez installer NumPy avec la commande suivante :
+
+```sh
 python -m pip install numpy
 ```
 
+## Le concept de `ndarray`
 
+L'objet fondamental de NumPy est le `ndarray` (N-dimensional array), qui est une
+structure de données optimisée pour le stockage et la manipulation de tableaux
+multidimensionnels.
 
-## Tableau NumPy et liste Python
+Quelques propriétés importantes des `ndarray` :
 
-Les tableaux NumPy, également appelés **ndarray** (pour "N-dimensional array")
-offrent une gestion des données à la fois flexible et performante.  
+- **Homogène** : Tous les éléments d'un tableau NumPy sont du même type
+  (contrairement aux listes Python qui peuvent contenir des types mixtes).
+- **Indexation avancée** : Possibilité d'accéder et de modifier des
+  sous-ensembles de données facilement.
+- **Support des opérations vectorielles** : Permet d'appliquer des fonctions sur
+  tout un tableau sans boucle explicite.
 
-Comparés aux listes Python, les tableaux NumPy présentent plusieurs avantages :
+Exemple de création et manipulation d'un `ndarray` :
 
-- Ils sont généralement plus rapides.  
-- Leur structure est plus compacte.  
-- Ils prennent en charge des opérations mathématiques vectorisées, rendant les
-  calculs plus efficaces.  
+```python
+import numpy as np
 
-Il est essentiel de souligner que, contrairement aux listes Python, les tableaux
-NumPy sont homogènes : tous leurs éléments doivent appartenir au même type de
-données (par exemple, uniquement des nombres entiers ou uniquement des nombres
-flottants).
+# Création d'un tableau NumPy
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print("Type de l'objet:", type(arr))  # <class 'numpy.ndarray'>
+print("Type des éléments:", arr.dtype)  # int64
+```
 
-Les tableaux NumPy peuvent être de dimensions quelconques, mais sont
-généralement utilisés pour des tableaux à une, deux ou trois dimensions.
-![NumPy Array](../../assets/images/numpy/numpy-dimension.png)
+## Différence de performance entre les listes Python et NumPy
 
-### Performance
-Comme mentionné ci-haut, les tableaux NumPy surpassent largement les listes
-Python en termes de vitesse, en particulier lorsqu'il s'agit d'effectuer des
-calculs mathématiques complexes ou de manipuler de grandes quantités de données.
-Cette performance accrue s'explique par l'utilisation d'algorithmes optimisés
-écrits en C, un langage de bas niveau qui permet d'accélérer considérablement
-l'exécution des opérations.
+NumPy est bien plus efficace que les listes Python en termes de performances et
+d'utilisation de mémoire.  L'exécution avec NumPy est beaucoup plus rapide car
+les opérations sont optimisées en C. L'utilisation mémoire est bien moindre, car
+les tableaux NumPy utilisent des types de données fixes, contrairement aux
+listes Python qui stockent des objets dynamiques.
 
-La vectorisation des opérations est un autre facteur clé de la performance des
-tableaux NumPy. En effet, les opérations vectorisées permettent d'effectuer des
-calculs sur l'ensemble des éléments d'un tableau en une seule instruction, ce
-qui réduit considérablement le temps de traitement.
+Voici un exemple comparant le temps d'exécution et la mémoire utilisée par une
+opération sur une liste Python et un tableau NumPy.
 
-Le code suivant illustre la différence de performance entre une liste Python et
-un tableau NumPy.
-```python linenums="1"
+```python
 import numpy as np
 import time
-
-# Créer une grande liste et un tableau NumPy
-n = 10000000
-lst = list(range(n))  # une liste
-arr = np.arange(n)    # un tableau NumPy
-
-# Temps pour la multiplication d'une liste Python
-start = time.time()
-for i in range(len(lst)):
-    lst[i] *= 2
-time_python = time.time() - start
-print(f"Temps en secondes pour la liste : {time_python:.5f}")
-
-# Temps pour la multiplication d'un tableau NumPy
-start = time.time()
-arr = arr * 2
-time_numpy = time.time() - start
-print(f"Temps en secondes pour le tableau NumPy : {time_numpy:.5f}")
-
-print(f"Le tableau NumPy est {time_python / time_numpy:.0f} \
-fois plus rapide que la liste Python.")
-```
-
-### Taille compacte
-Les tableaux NumPy se distinguent par leur grande efficacité en termes de
-mémoire, car ils organisent les données dans des blocs de mémoire contigus.
-Cette approche minimise la surcharge mémoire souvent liée à la gestion flexible
-des types de données dans les listes Python.
-
-Le code suivant illustre la différence de taille entre une liste Python et un
-tableau NumPy.
-```python linenums="1"
-import numpy as np
 import sys
 
-n = 1_000_000
-lst = [float(i) for i in range(n)]
-arr = np.arange(n, dtype=float)
+# Taille du tableau
+size = 10_000_000
 
-python_list_memory = sys.getsizeof(lst) + sum(sys.getsizeof(x) for x in lst)
+# Liste Python
+list_py = list(range(size))
+start_py = time.time()
+list_py = [x * 2 for x in list_py]
+end_py = time.time()
+print(f"Temps d'exécution (listes Python) : {end_py - start_py:.3f} secondes")
+sz = sys.getsizeof(list_py[0]) * len(list_py) + sys.getsizeof(list_py)
+print(f"Taille en mémoire (listes Python) : {sz / 1_000_000:.1f} Mo")
 
-numpy_array_memory = arr.nbytes
+# Tableau NumPy
+arr_np = np.arange(size)
+start_np = time.time()
+arr_np = arr_np * 2
+end_np = time.time()
+print(f"Temps d'exécution (NumPy) : {end_np - start_np:.3f} secondes")
+print(f"Taille en mémoire (NumPy) : {arr_np.nbytes / 1_000_000:.1f} Mo")
 
-print(f"Taille de la liste : {python_list_memory} octets")
-print(f"Taille du tableau NumPy : {numpy_array_memory} octets")
-
-print(f"Gain : {python_list_memory / numpy_array_memory:.2f}")
+# Comparaison des résultats
+gain = (end_py - start_py) / (end_np - start_np)
+# Environ 20 à 40 fois plus rapide
+print(f"Nympy est {gain:.2f} fois plus rapide.")
+# Environ 4 fois moins de mémoire
+print(f"NumPy utilise {round(sz / arr_np.nbytes, 2)} fois moins de mémoire.")
 ```
+
+## Conclusion
+
+NumPy est un outil indispensable pour la manipulation efficace de données
+numériques en Python. Son utilisation permet d'améliorer significativement les
+performances de calcul et de réduire la consommation mémoire. Son adoption est
+essentielle pour tout étudiant en informatique souhaitant travailler avec des
+données massives ou faire de l'analyse numérique.

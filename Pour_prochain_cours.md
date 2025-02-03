@@ -2,6 +2,10 @@
 
 Quelques éléments à retenir pour le prochain cours.
 
+## Général
+
+- Ajouter plus de références pour les étudiants qui veulent approfondir les sujets.
+
 ## Semaine 1
 
 - Prévoir plus de temps pour configurer l'envirronement de développement.
