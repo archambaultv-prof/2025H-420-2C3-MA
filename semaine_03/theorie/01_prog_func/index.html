@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://archambaultv-prof.github.io/2025H-420-2C3-MA/semaine_01/theorie/01_expressions/">
+        <link rel="canonical" href="https://archambaultv-prof.github.io/2025H-420-2C3-MA/semaine_03/theorie/01_prog_func/">
       
       
         <link rel="prev" href="../../">
       
       
-        <link rel="next" href="../02_conditions/">
+        <link rel="next" href="../02_list_comprehension/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Les expressions - Programmation object - 420-2C3-MA - Hiver 2025</title>
+        <title>Programmation fonctionnelle - Programmation object - 420-2C3-MA - Hiver 2025</title>
       
     
     
@@ -56,11 +56,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Les expressions - Programmation object - 420-2C3-MA - Hiver 2025" >
+        <meta  property="og:title"  content="Programmation fonctionnelle - Programmation object - 420-2C3-MA - Hiver 2025" >
       
         <meta  property="og:description"  content="Programmation object - 420-2C3-MA - Hiver 2025 - Collège de Maisonneuve." >
       
-        <meta  property="og:image"  content="https://archambaultv-prof.github.io/2025H-420-2C3-MA/assets/images/social/semaine_01/theorie/01_expressions.png" >
+        <meta  property="og:image"  content="https://archambaultv-prof.github.io/2025H-420-2C3-MA/assets/images/social/semaine_03/theorie/01_prog_func.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -68,15 +68,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://archambaultv-prof.github.io/2025H-420-2C3-MA/semaine_01/theorie/01_expressions/" >
+        <meta  property="og:url"  content="https://archambaultv-prof.github.io/2025H-420-2C3-MA/semaine_03/theorie/01_prog_func/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Les expressions - Programmation object - 420-2C3-MA - Hiver 2025" >
+        <meta  name="twitter:title"  content="Programmation fonctionnelle - Programmation object - 420-2C3-MA - Hiver 2025" >
       
         <meta  name="twitter:description"  content="Programmation object - 420-2C3-MA - Hiver 2025 - Collège de Maisonneuve." >
       
-        <meta  name="twitter:image"  content="https://archambaultv-prof.github.io/2025H-420-2C3-MA/assets/images/social/semaine_01/theorie/01_expressions.png" >
+        <meta  name="twitter:image"  content="https://archambaultv-prof.github.io/2025H-420-2C3-MA/assets/images/social/semaine_03/theorie/01_prog_func.png" >
       
     
     
@@ -92,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#les-expressions-en-python" class="md-skip">
+        <a href="#programmation-fonctionnelle" class="md-skip">
           Aller au contenu
         </a>
       
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Les expressions
+              Programmation fonctionnelle
             
           </span>
         </div>
@@ -331,19 +331,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -358,7 +356,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Semaine 1
@@ -372,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../../../semaine_01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -391,19 +389,17 @@
                 
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
         
           
           <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
@@ -418,7 +414,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
             Théorie
@@ -429,31 +425,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Les expressions
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../semaine_01/theorie/01_expressions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -463,203 +438,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Introduction
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-expressions-en-python" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Expressions en Python
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1. Expressions en Python">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#regles-importantes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Règles importantes :
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-les-operateurs-communs" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Les opérateurs communs
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Les opérateurs communs">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#21-operateurs-arithmetiques" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.1 Opérateurs arithmétiques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#22-operateurs-de-comparaison" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.2 Opérateurs de comparaison
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#23-operateurs-logiques" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.3 Opérateurs logiques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#24-operateurs-dappartenance" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.4 Opérateurs d'appartenance
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-types-de-donnees" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Types de données
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="3. Types de données">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#31-types-numeriques" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.1 Types numériques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#32-chaines-de-caracteres-str" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.2 Chaînes de caractères (str)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#33-types-sequentiels" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.3 Types séquentiels
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#34-types-de-tableaux-associatifs" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.4 Types de tableaux associatifs
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#35-types-densemble" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.5 Types d'ensemble
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#36-booleens" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.6 Booléens
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Conclusion">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ressources-supplementaires" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ressources supplémentaires
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -672,7 +450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../02_conditions/" class="md-nav__link">
+      <a href="../../../semaine_01/theorie/02_conditions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -694,7 +472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../03_structures_iteratives/" class="md-nav__link">
+      <a href="../../../semaine_01/theorie/03_structures_iteratives/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -716,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../04_chaines_caracteres/" class="md-nav__link">
+      <a href="../../../semaine_01/theorie/04_chaines_caracteres/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -738,7 +516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../05_fonctions/" class="md-nav__link">
+      <a href="../../../semaine_01/theorie/05_fonctions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -760,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_listes/" class="md-nav__link">
+      <a href="../../../semaine_01/theorie/06_listes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -969,17 +747,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -994,7 +774,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Semaine 3
@@ -1008,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/sommatif_1/" class="md-nav__link">
+      <a href="../../sommatif_1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1030,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1049,17 +829,19 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" checked>
         
           
           <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
@@ -1074,7 +856,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7_3">
             <span class="md-nav__icon md-icon"></span>
             Théorie
@@ -1085,10 +867,31 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../semaine_03/theorie/01_prog_func/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Programmation fonctionnelle
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1098,6 +901,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#les-fonctions-dordre-superieur" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les fonctions d'ordre supérieur
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les fonctions d'ordre supérieur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-fonction-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      La fonction map
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-fonction-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      La fonction filter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-fonction-reduce" class="md-nav__link">
+    <span class="md-ellipsis">
+      La fonction reduce
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1110,7 +975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/theorie/02_list_comprehension/" class="md-nav__link">
+      <a href="../02_list_comprehension/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1167,172 +1032,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#les-fonctions-dordre-superieur" class="md-nav__link">
     <span class="md-ellipsis">
-      Introduction
+      Les fonctions d'ordre supérieur
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-expressions-en-python" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Expressions en Python
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1. Expressions en Python">
+    <nav class="md-nav" aria-label="Les fonctions d'ordre supérieur">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#regles-importantes" class="md-nav__link">
+  <a href="#la-fonction-map" class="md-nav__link">
     <span class="md-ellipsis">
-      Règles importantes :
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-les-operateurs-communs" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Les opérateurs communs
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Les opérateurs communs">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#21-operateurs-arithmetiques" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.1 Opérateurs arithmétiques
+      La fonction map
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#22-operateurs-de-comparaison" class="md-nav__link">
+  <a href="#la-fonction-filter" class="md-nav__link">
     <span class="md-ellipsis">
-      2.2 Opérateurs de comparaison
+      La fonction filter
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#23-operateurs-logiques" class="md-nav__link">
+  <a href="#la-fonction-reduce" class="md-nav__link">
     <span class="md-ellipsis">
-      2.3 Opérateurs logiques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#24-operateurs-dappartenance" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.4 Opérateurs d'appartenance
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-types-de-donnees" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Types de données
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="3. Types de données">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#31-types-numeriques" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.1 Types numériques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#32-chaines-de-caracteres-str" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.2 Chaînes de caractères (str)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#33-types-sequentiels" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.3 Types séquentiels
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#34-types-de-tableaux-associatifs" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.4 Types de tableaux associatifs
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#35-types-densemble" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.5 Types d'ensemble
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#36-booleens" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.6 Booléens
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Conclusion">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ressources-supplementaires" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ressources supplémentaires
+      La fonction reduce
     </span>
   </a>
   
@@ -1362,268 +1092,127 @@
   
 
 
-<h1 id="les-expressions-en-python">Les expressions en Python</h1>
-<h2 id="introduction">Introduction</h2>
-<p>Cette leçon couvre les notions de base en Python :</p>
-<ul>
-<li>Expressions</li>
-<li>Opérateurs communs</li>
-<li>Types de données</li>
-</ul>
-<hr />
-<h2 id="1-expressions-en-python">1. Expressions en Python</h2>
-<p>Une <strong>expression</strong> est une combinaison de variables, de constantes, d'opérateurs et de fonctions qui retourne une valeur.</p>
-<p>Exemple :</p>
-<div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span>
-<span class="normal"><a href="#__codelineno-0-4">4</a></span>
-<span class="normal"><a href="#__codelineno-0-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1"># Exemple d&#39;expressions simples</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="mi">3</span> <span class="o">+</span> <span class="mi">5</span>         <span class="c1"># Addition</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="s2">&quot;Hello&quot;</span> <span class="o">+</span> <span class="s2">&quot; World&quot;</span>  <span class="c1"># Concaténation de chaînes</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="mi">5</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span>   <span class="c1"># Expression arithmétique</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="nb">len</span><span class="p">(</span><span class="s2">&quot;Python&quot;</span><span class="p">)</span> <span class="c1"># Appel de fonction</span>
-</span></code></pre></div></td></tr></table></div>
-<h3 id="regles-importantes">Règles importantes :</h3>
-<ul>
-<li>Les expressions sont évaluées de gauche à droite (en respectant la priorité des opérateurs).</li>
-</ul>
-<hr />
-<h2 id="2-les-operateurs-communs">2. Les opérateurs communs</h2>
-<p>Les opérateurs permettent d'effectuer des opérations sur des variables et des valeurs. Voici les catégories principales :</p>
-<h3 id="21-operateurs-arithmetiques">2.1 Opérateurs arithmétiques</h3>
-<table>
-<thead>
-<tr>
-<th>Opérateur</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>+</code></td>
-<td>Addition</td>
-<td><code>3 + 2</code> = 5</td>
-</tr>
-<tr>
-<td><code>-</code></td>
-<td>Soustraction</td>
-<td><code>5 - 2</code> = 3</td>
-</tr>
-<tr>
-<td><code>*</code></td>
-<td>Multiplication</td>
-<td><code>4 * 3</code> = 12</td>
-</tr>
-<tr>
-<td><code>/</code></td>
-<td>Division</td>
-<td><code>10 / 2</code> = 5.0</td>
-</tr>
-<tr>
-<td><code>//</code></td>
-<td>Division entière</td>
-<td><code>10 // 3</code> = 3</td>
-</tr>
-<tr>
-<td><code>%</code></td>
-<td>Modulo (reste)</td>
-<td><code>10 % 3</code> = 1</td>
-</tr>
-<tr>
-<td><code>**</code></td>
-<td>Puissance</td>
-<td><code>2 ** 3</code> = 8</td>
-</tr>
-</tbody>
-</table>
-<h3 id="22-operateurs-de-comparaison">2.2 Opérateurs de comparaison</h3>
-<table>
-<thead>
-<tr>
-<th>Opérateur</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>==</code></td>
-<td>Égal à</td>
-<td><code>5 == 5</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>!=</code></td>
-<td>Différent de</td>
-<td><code>5 != 3</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>&gt;</code></td>
-<td>Supérieur à</td>
-<td><code>5 &gt; 3</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>&lt;</code></td>
-<td>Inférieur à</td>
-<td><code>3 &lt; 5</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>&gt;=</code></td>
-<td>Supérieur ou égal à</td>
-<td><code>5 &gt;= 5</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>&lt;=</code></td>
-<td>Inférieur ou égal à</td>
-<td><code>3 &lt;= 5</code> → <code>True</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="23-operateurs-logiques">2.3 Opérateurs logiques</h3>
-<table>
-<thead>
-<tr>
-<th>Opérateur</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>and</code></td>
-<td>Retourne <code>True</code> si les deux conditions sont vraies</td>
-<td><code>(5 &gt; 3) and (3 &lt; 10)</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>or</code></td>
-<td>Retourne <code>True</code> si au moins une condition est vraie</td>
-<td><code>(5 &gt; 3) or (3 &gt; 10)</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>not</code></td>
-<td>Inverse une condition</td>
-<td><code>not (5 &gt; 3)</code> → <code>False</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="24-operateurs-dappartenance">2.4 Opérateurs d'appartenance</h3>
-<table>
-<thead>
-<tr>
-<th>Opérateur</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>in</code></td>
-<td>Vérifie si un élément appartient à une séquence</td>
-<td><code>'a' in 'apple'</code> → <code>True</code></td>
-</tr>
-<tr>
-<td><code>not in</code></td>
-<td>Vérifie si un élément n'appartient pas à une séquence</td>
-<td><code>'b' not in 'apple'</code> → <code>True</code></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="3-types-de-donnees">3. Types de données</h2>
-<p>Python propose plusieurs types de données. Voici les plus courants :</p>
-<h3 id="31-types-numeriques">3.1 Types numériques</h3>
-<ul>
-<li><strong>int</strong> : Nombres entiers.
-  <div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>      <span class="c1"># x est un entier</span>
-</span></code></pre></div></li>
-<li><strong>float</strong> : Nombres décimaux.
-  <div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">y</span> <span class="o">=</span> <span class="mf">3.14</span>   <span class="c1"># y est un flottant</span>
-</span></code></pre></div></li>
-</ul>
-<h3 id="32-chaines-de-caracteres-str">3.2 Chaînes de caractères (str)</h3>
-<p>Les chaînes de caractères sont utilisées pour stocker du texte.</p>
-<div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
-<span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span>
-<span class="normal"><a href="#__codelineno-3-4">4</a></span>
-<span class="normal"><a href="#__codelineno-3-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1"># Exemple de chaînes</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="n">nom</span> <span class="o">=</span> <span class="s2">&quot;Python&quot;</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="n">salutation</span> <span class="o">=</span> <span class="s1">&#39;Bonjour&#39;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="n">texte_multi_ligne</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Ceci est</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="s2">un texte multi-ligne.&quot;&quot;&quot;</span>
-</span></code></pre></div></td></tr></table></div>
-<h3 id="33-types-sequentiels">3.3 Types séquentiels</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>list</strong></td>
-<td>Liste modifiable</td>
-<td><code>[1, 2, 3]</code></td>
-</tr>
-<tr>
-<td><strong>tuple</strong></td>
-<td>Tuple immuable</td>
-<td><code>(1, 2, 3)</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="34-types-de-tableaux-associatifs">3.4 Types de tableaux associatifs</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>dict</strong></td>
-<td>Dictionnaire clé-valeur</td>
-<td><code class="language-py3 highlight"><span class="p">{</span><span class="s2">&quot;nom&quot;</span><span class="p">:</span> <span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="mi">25</span><span class="p">}</span></code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="35-types-densemble">3.5 Types d'ensemble</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Description</th>
-<th>Exemple</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>set</strong></td>
-<td>Ensemble non ordonné</td>
-<td><code>{1, 2, 3}</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="36-booleens">3.6 Booléens</h3>
-<ul>
-<li><strong>bool</strong> : Peut être <code>True</code> ou <code>False</code>.
-  <div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">actif</span> <span class="o">=</span> <span class="kc">True</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">termine</span> <span class="o">=</span> <span class="kc">False</span>
-</span></code></pre></div></li>
-</ul>
-<hr />
-<h2 id="conclusion">Conclusion</h2>
-<p>Ces bases constituent les fondations de tout programme Python. Comprendre les expressions, les opérateurs et les types est crucial pour écrire du code lisible et fonctionnel.</p>
-<hr />
-<h3 id="ressources-supplementaires">Ressources supplémentaires</h3>
-<ul>
-<li><a href="https://docs.python.org/fr/3/">Documentation officielle Python</a></li>
-</ul>
+<h1 id="programmation-fonctionnelle">Programmation fonctionnelle</h1>
+<p>Python est un langage de programmation très flexible. Vous êtes déjà habitué à
+écrire des programmes de manière impérative, c'est-à-dire en utilisant des
+boucles et en définissant les fonctions à l'aide du mot clé <code>def</code>. Cependant, Python
+supporte également la programmation fonctionnelle. Nous allons voir dans ce
+cours certains aspects de la programmation fonctionnelle en Python comme les
+fonctions lambda, les fonctions d'ordre supérieur et la compréhension de liste.</p>
+<h2 id="les-fonctions-dordre-superieur">Les fonctions d'ordre supérieur</h2>
+<p>En programmation fonctionnelle, les fonctions sont des objets de première classe.
+Cela signifie que vous pouvez les passer en argument à d'autres fonctions,
+les retourner comme valeur de retour, ou les stocker dans des variables.
+Une fonction qui prend une ou plusieurs fonctions en argument ou qui retourne
+une fonction est appelée une fonction d'ordre supérieur.</p>
+<p>Puisque les fonctions représentent un "code réutilisable", lorsque vous passez
+une fonction en argument à une autre fonction, c'est comme si vous passiez du
+code en argument. Ceci est très puissant et permet de personnaliser le
+comportement d'une fonction.</p>
+<p>Par exemple, si vous avez une fonction qui prend une liste d'objet et une fonction 
+pour convertir ces objets en un nombre, vous pouvez créer une fonction qui prend
+cette fonction de conversion en argument et retourne la somme des nombres obtenus.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">sum_objects</span><span class="p">(</span><span class="n">objects</span><span class="p">,</span> <span class="n">convert</span><span class="p">):</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="k">for</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">objects</span><span class="p">:</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">s</span> <span class="o">+=</span> <span class="n">convert</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="k">return</span> <span class="n">s</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">objects</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">]</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">sum_objects</span><span class="p">(</span><span class="n">objects</span><span class="p">,</span> <span class="nb">int</span><span class="p">))</span>  <span class="c1"># 10</span>
+</span></code></pre></div>
+<p>Cela vous évite d'avoir à écrire une fonction qui fonctionne uniquement pour
+les nombres. Cela permet aussi d'encapsuler la logique de conversion dans une
+fonction séparée.</p>
+<p>Les fonctions d'ordre supérieur les plus courantes en Python sont <code>map</code>, <code>filter</code>
+et <code>reduce</code>.</p>
+<h3 id="la-fonction-map">La fonction <code>map</code></h3>
+<p>La fonction <code>map</code> prend une fonction et une séquence en argument et retourne une
+nouvelle séquence qui est le résultat de l'application de la fonction à chaque
+élément de la séquence. Par exemple, pour calculer le carré de chaque élément
+d'une liste, vous pouvez utiliser la fonction <code>map</code> comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">squared_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">squared_numbers</span><span class="p">))</span>  <span class="c1"># [1, 4, 9, 16, 25]</span>
+</span></code></pre></div>
+<p>De façon générale, pour appliquer une fonction <code>f</code> à chaque élément d'une
+séquence <code>lst</code>, vous pouvez utiliser <code>map(f, lst)</code>. Si <code>lst</code> est la liste
+<code>[x1, x2, ..., xn]</code>, alors <code>map(f, lst)</code> retourne la liste <code>[f(x1), f(x2), ..., f(xn)]</code>.</p>
+<p>Pour les listes, on peut facilement définir la fonction <code>map</code> en Python comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">map</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">lst</span><span class="p">):</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="n">xs</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">:</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>        <span class="n">xs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="k">return</span> <span class="n">xs</span>
+</span></code></pre></div>
+<p>Ainsi au final, <code>map(f, lst)</code> est équivalent à faire une simple boucle ce qui
+s'exprime plus simplement avec une compréhension de liste :  <code>[f(x) for x in lst]</code>.</p>
+<h3 id="la-fonction-filter">La fonction <code>filter</code></h3>
+<p>La fonction <code>filter</code> prend une fonction prédicat et une séquence en argument et
+retourne une nouvelle séquence qui contient uniquement les éléments de la
+séquence pour lesquels la fonction prédicat retourne <code>True</code>. Par exemple, pour
+filtrer les nombres pairs d'une liste, vous pouvez utiliser la fonction <code>filter</code>
+comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">is_even</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    <span class="k">return</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">even_numbers</span> <span class="o">=</span> <span class="nb">filter</span><span class="p">(</span><span class="n">is_even</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">even_numbers</span><span class="p">))</span>  <span class="c1"># [2, 4]</span>
+</span></code></pre></div>
+<p>Pour les listes, on peut facilement définir la fonction <code>filter</code> en Python comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">filter</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">lst</span><span class="p">):</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    <span class="n">xs</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">:</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>        <span class="k">if</span> <span class="n">pred</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>            <span class="n">xs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    <span class="k">return</span> <span class="n">xs</span>
+</span></code></pre></div>
+<h3 id="la-fonction-reduce">La fonction <code>reduce</code></h3>
+<p>La fonction <code>reduce</code> prend une fonction à deux arguments et une séquence en
+argument et retourne une valeur qui est le résultat de l'application de la
+fonction binaire de manière cumulative. C'est à dire que la fonction est
+d'abord appliquée aux deux premiers éléments de la séquence, puis au résultat
+de cette application et au troisième élément, puis au résultat de cette
+application et au quatrième élément, et ainsi de suite.</p>
+<p>Par exemple, pour calculer la somme des éléments d'une liste, vous pouvez
+utiliser la fonction <code>reduce</code> comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">functools</span><span class="w"> </span><span class="kn">import</span> <span class="n">reduce</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">def</span><span class="w"> </span><span class="nf">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="n">sum_numbers</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="n">add</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="nb">print</span><span class="p">(</span><span class="n">sum_numbers</span><span class="p">)</span>  <span class="c1"># 15</span>
+</span></code></pre></div>
+<p>L'image ci-dessous illustre comment la fonction <code>reduce</code> fonctionne dans l'exemple précédent :</p>
+<p><center>
+    <img alt="Illustration de la fonction reduce" src="../../../assets/images/python_reduce.jpg" />
+    <br/>
+    <span style="color:gray; font-size:smaller;">Source : <a href="https://www.alpharithms.com/python-reduce-function-411712/">alpharithms.com</a></span>
+</center></p>
+<div class="admonition note note">
+<p class="admonition-title">Note</p>
+<p>Notez que la fonction <code>reduce</code> doit être importée du module <code>functools</code>. </p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>La fonction <code>reduce</code> retourne une erreur si la séquence est vide.</p>
+</div>
+<p>Pour les listes, on peut facilement définir la fonction <code>reduce</code> en Python comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">reduce</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">lst</span><span class="p">):</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>        <span class="n">result</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>    <span class="k">return</span> <span class="n">result</span>
+</span></code></pre></div>
+<p>Il s'agit donc d'une boucle qui applique la fonction <code>f</code> de manière répétée et
+qui accumule le résultat. Bref, à chaque fois qu'on produit un résultat en
+parcourant une liste de gauche à droite, on peut utiliser <code>reduce</code>.</p>
 
 
 
@@ -1679,13 +1268,13 @@
         
         
           
-          <a href="../02_conditions/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Les structures conditionnelles">
+          <a href="../02_list_comprehension/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Compréhensions de listes">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Suivant
               </span>
               <div class="md-ellipsis">
-                Les structures conditionnelles
+                Compréhensions de listes
               </div>
             </div>
             <div class="md-footer__button md-icon">
