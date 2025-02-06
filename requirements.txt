@@ -1,3 +1,3 @@
 pytest
-mkdocs
-mkdocs-material
+numpy
+mkdocs-material[imaging]

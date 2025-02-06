@@ -47,9 +47,8 @@ Collège de Maisonneuve peuvent me contacter par
 [courriel](mailto:varchambaultbouffard@cmaisonneuve.qc.ca).
 
 ## Code source du site
-Le code source du site est disponible [ici](https://github.com/archambaultv-prof/2025H-420-2C3-MA). 
+Le code source du site est disponible [ici](https://github.com/archambaultv-prof/2025H-420-2C3-MA). N'hésitez pas à contribuer!
 
 ## Droits d'auteur
 Le contenu de ce site, y compris le code, les textes et autres matériaux, est
-mis à disposition selon la licence suivante:
-- [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)
+mis à disposition selon la licence suivante: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr)
