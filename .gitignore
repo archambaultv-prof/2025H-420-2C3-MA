@@ -5,3 +5,4 @@
 site/
 *.pyc
 .idea/
+.vscode/settings.json

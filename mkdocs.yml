@@ -27,6 +27,11 @@ nav:
     - Théorie:
       - Programmation fonctionnelle: semaine_03/theorie/01_prog_func.md
       - Compréhensions de listes: semaine_03/theorie/02_list_comprehension.md
+  - Semaine 4:
+    - Plan de leçon: semaine_04/index.md
+    - Théorie:
+      - Les classes: semaine_04/theorie/01_classes.md
+      - L'héritage: semaine_04/theorie/02_heritage.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
@@ -49,13 +54,18 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins: 
   # - social
   - search
