@@ -933,6 +933,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#les-fonctions-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les fonctions lambda
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -954,6 +963,159 @@
   
   <span class="md-ellipsis">
     Compréhensions de listes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semaine 4
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Semaine 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../semaine_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plan de leçon
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Théorie
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Théorie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../semaine_04/theorie/01_classes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Les classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../semaine_04/theorie/02_heritage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    L'héritage
     
   </span>
   
@@ -1044,6 +1206,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-fonctions-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les fonctions lambda
+    </span>
+  </a>
   
 </li>
       
@@ -1187,6 +1358,25 @@ utiliser la fonction <code>reduce</code> comme suit :</p>
 <p>Il s'agit donc d'une boucle qui applique la fonction <code>f</code> de manière répétée et
 qui accumule le résultat. Bref, à chaque fois qu'on produit un résultat en
 parcourant une liste de gauche à droite, on peut utiliser <code>reduce</code>.</p>
+<h2 id="les-fonctions-lambda">Les fonctions lambda</h2>
+<p>Les fonctions lambda sont des fonctions anonymes qui sont définies à l'aide du
+mot clé <code>lambda</code>. Elles sont souvent utilisées pour définir des fonctions
+simples qui ne nécessitent pas de nom. Par exemple, pour définir une fonction
+qui retourne le carré d'un nombre, vous pouvez utiliser une fonction lambda
+comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">square</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="nb">print</span><span class="p">(</span><span class="n">square</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>  <span class="c1"># 25</span>
+</span></code></pre></div>
+<p>Les fonctions lambda sont souvent utilisées en combinaison avec les fonctions
+d'ordre supérieur comme <code>map</code>, <code>filter</code> et <code>reduce</code>. Elle évitent d'avoir à
+définir une fonction séparée à l'aide du mot clé <code>def</code> pour des opérations
+simples. Par exemple, pour calculer le carré de chaque élément d'une liste, vous
+pouvez utiliser une fonction lambda avec la fonction <code>map</code> comme suit :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="n">squared_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">squared_numbers</span><span class="p">))</span>  <span class="c1"># [1, 4, 9, 16, 25]</span>
+</span></code></pre></div>
 
 
 
