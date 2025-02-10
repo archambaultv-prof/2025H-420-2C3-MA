@@ -6,6 +6,17 @@ d'une classe. Le concept de programmation
 orientée objet remonte aux [années 1960](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet)
 , mais il a été popularisé par des langages comme C++, Java et Python.
 
+## Distinction entre classe et objet
+
+Une classe est un modèle pour créer des objets. Elle définit les attributs et
+les méthodes que les objets de la classe auront. Il s'agit d'une structure
+abstraite qui ne contient pas de données réelles. En Python, une classe est
+définie à l'aide du mot-clé `class`. Un objet est une instance d'une classe et
+il est créé à l'aide du constructeur de la classe.
+
+Autrement dit, la classe est le plan pour construire des objets. Avec un même plan,
+vous pouvez construire plusieurs objets.
+
 ## Définir une classe
 
 En Python, une classe est définie à l'aide du mot-clé `class`. Voici un exemple
