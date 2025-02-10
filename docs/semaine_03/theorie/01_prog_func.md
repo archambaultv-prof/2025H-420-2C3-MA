@@ -153,3 +153,28 @@ def reduce(f, lst):
 Il s'agit donc d'une boucle qui applique la fonction `f` de manière répétée et
 qui accumule le résultat. Bref, à chaque fois qu'on produit un résultat en
 parcourant une liste de gauche à droite, on peut utiliser `reduce`.
+
+## Les fonctions lambda
+
+Les fonctions lambda sont des fonctions anonymes qui sont définies à l'aide du
+mot clé `lambda`. Elles sont souvent utilisées pour définir des fonctions
+simples qui ne nécessitent pas de nom. Par exemple, pour définir une fonction
+qui retourne le carré d'un nombre, vous pouvez utiliser une fonction lambda
+comme suit :
+
+```python
+square = lambda x: x * x
+print(square(5))  # 25
+```
+
+Les fonctions lambda sont souvent utilisées en combinaison avec les fonctions
+d'ordre supérieur comme `map`, `filter` et `reduce`. Par exemple, pour calculer
+le carré de chaque élément d'une liste, vous pouvez utiliser une fonction lambda
+avec la fonction `map` comme suit :
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+squared_numbers = map(lambda x: x * x, numbers)
+print(list(squared_numbers))  # [1, 4, 9, 16, 25]
+```
