@@ -168,9 +168,10 @@ print(square(5))  # 25
 ```
 
 Les fonctions lambda sont souvent utilisées en combinaison avec les fonctions
-d'ordre supérieur comme `map`, `filter` et `reduce`. Par exemple, pour calculer
-le carré de chaque élément d'une liste, vous pouvez utiliser une fonction lambda
-avec la fonction `map` comme suit :
+d'ordre supérieur comme `map`, `filter` et `reduce`. Elle évitent d'avoir à
+définir une fonction séparée à l'aide du mot clé `def` pour des opérations
+simples. Par exemple, pour calculer le carré de chaque élément d'une liste, vous
+pouvez utiliser une fonction lambda avec la fonction `map` comme suit :
 
 ```python
 numbers = [1, 2, 3, 4, 5]
