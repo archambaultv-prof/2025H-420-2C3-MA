@@ -11,3 +11,4 @@ hide:
 ## Théorie
 - [Classes en Python](theorie/01_classes.md)
 - [Héritage](theorie/02_heritage.md)
+- [Réinventer les classes](theorie/03_reinventer_classes.md)

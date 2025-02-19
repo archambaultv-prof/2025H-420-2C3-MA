@@ -32,6 +32,10 @@ nav:
     - Théorie:
       - Les classes: semaine_04/theorie/01_classes.md
       - L'héritage: semaine_04/theorie/02_heritage.md
+      - Réinventer les classes: semaine_04/theorie/03_reinventer_classes.md
+  - Semaine 5:
+    - Plan de leçon: semaine_05/index.md
+    - Travail pratique 1: semaine_05/tp_1.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
