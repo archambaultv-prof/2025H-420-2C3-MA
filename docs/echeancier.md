@@ -6,7 +6,7 @@ hide:
 !!! warning "Avertissement"
     En cas de différence entre les informations présentées ci-dessous et
     celles du plan de cours, les informations du plan de cours prévalent.
-    
+
 | Semaine     | Thème                                | Objectifs                                                                 | Contenu                                                                                      | Activités pédagogiques |
 |-------------|--------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------|
 | Semaine 1   | Révision des structures de base      | Réviser les structures de base en Python (tuple, liste et dictionnaire). | <ul><li>Présentation du plan de cours</li><li>Structures de base (séquentielle, sélective, répétitive)</li><li>Utilisation des chaînes de caractères</li><li>Programmation de fonctions et portée des identificateurs</li></ul> | Formatif               |

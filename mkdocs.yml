@@ -36,6 +36,11 @@ nav:
   - Semaine 5:
     - Plan de leçon: semaine_05/index.md
     - Travail pratique 1: semaine_05/tp_1.md
+  - Semaine 6:
+    - Plan de leçon: semaine_06/index.md
+    - Examen 1: semaine_06/examen_1.md
+    - Théorie:
+      - Classe abstraite: semaine_06/theorie/01_classe_abstraite.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
