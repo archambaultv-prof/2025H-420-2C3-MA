@@ -4,10 +4,15 @@
   ![Logo](assets/images/logo-black.svg)
 </center>
 
+# Site web pour la théorie
+
+Le nouveau site web pour la théorie est disponible [ici](https://archambaultv-prof.github.io/programmation-python).
+
+## Description du cours
+
 Bienvenue sur le site du cours de programmation objet 420-2C3-MA du [Collège de
 Maisonneuve](https://www.cmaisonneuve.qc.ca/). Ce cours est donné par le professeur Vincent Archambault-Bouffard.
 
-## Description du cours
 Ce cours consiste en une introduction à la programmation par objets. Dans un
 premier temps, l'étudiant apprendra à inclure la programmation orienté-objet à
 son processus de conception en modélisant des classes selon le problème à
