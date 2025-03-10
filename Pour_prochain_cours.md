@@ -14,3 +14,7 @@ Quelques éléments à retenir pour le prochain cours.
 ## Semaine 2
 
 - Numpy les étudiants pour la plupart n'ont pas de notions d'algèbre linéaire.
+
+## Semaine 3
+
+- Montrer reduce avec le paramètre initial.
