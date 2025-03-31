@@ -80,6 +80,7 @@ const config = {
             label: 'Accueil',
           },
           {to: 'https://archambaultv-prof.github.io/programmation-python/', label: 'Notes de cours', position: 'left'},
+          {to: 'https://github.com/archambaultv-prof/2025H-420-2C3-MA-Pyforum', label: 'PyForum', position: 'left'},
           {
             href: 'https://github.com/archambaultv-prof/2025H-420-2C3-MA/',
             label: 'GitHub',
